@@ -29,7 +29,7 @@ storage:
   redis:
     url: redis://localhost:6379
   postgres:
-    url: postgresql://user:pass@localhost/watchmarket?sslmode=disable
+    url: postgresql://admin:admin@localhost/watchmarket?sslmode=disable
     logs: false
 
 worker:
